@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="60.109">
+    <testcase classname="Google search page" name="Search with multiple" time="14.503">
+        <system-out><![CDATA[Given I am on google search page............................................passed
+When I enter "selenium" in search field and hit enter.......................passed
+Then I page title starts with "selenium"....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google search page" name="Search with multiple 2" time="28.374">
+        <system-out><![CDATA[Given I am on google search page............................................passed
+When I enter "seleniumwithjava" in search field and hit enter...............passed
+Then I page title starts with "seleniumwithjava"............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google search page" name="Search with multiple 3" time="15.957">
+        <system-out><![CDATA[Given I am on google search page............................................passed
+When I enter "testNG" in search field and hit enter.........................passed
+Then I page title starts with "testNG"......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
