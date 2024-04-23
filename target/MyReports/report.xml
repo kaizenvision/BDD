@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="60.109">
-    <testcase classname="Google search page" name="Search with multiple" time="14.503">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="28.02">
+    <testcase classname="Google search page" name="Search with multiple" time="8.678">
         <system-out><![CDATA[Given I am on google search page............................................passed
 When I enter "selenium" in search field and hit enter.......................passed
 Then I page title starts with "selenium"....................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Google search page" name="Search with multiple 2" time="28.374">
+    <testcase classname="Google search page" name="Search with multiple 2" time="8.522">
         <system-out><![CDATA[Given I am on google search page............................................passed
 When I enter "seleniumwithjava" in search field and hit enter...............passed
 Then I page title starts with "seleniumwithjava"............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Google search page" name="Search with multiple 3" time="15.957">
+    <testcase classname="Google search page" name="Search with multiple 3" time="10.474">
         <system-out><![CDATA[Given I am on google search page............................................passed
 When I enter "testNG" in search field and hit enter.........................passed
 Then I page title starts with "testNG"......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Scenarios feature file" name="Scenario Number One" time="0.026">
+        <system-out><![CDATA[Given Step from 'Scenario 1' in 'scenarios' feature file....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Scenarios feature file" name="Scenario Number Two" time="0.004">
+        <system-out><![CDATA[Given Step from 'Scenario 2' in 'scenarios' feature file....................passed
 ]]></system-out>
     </testcase>
 </testsuite>
